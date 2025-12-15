@@ -38,7 +38,7 @@ public class ChatService {
         }
 
         try {
-            // === BAGIAN INI YANG DIUBAH (SYSTEM PROMPT HRD) ===
+            // SYSTEM PROMPT HRD
             StringBuilder contextBuilder = new StringBuilder();
             contextBuilder.append("PERAN: Anda adalah HR Manager Senior yang teliti dan profesional.\n");
             contextBuilder.append("TUGAS: Analisis teks CV atau profil kandidat yang diberikan user.\n");
@@ -89,4 +89,5 @@ public class ChatService {
         List<Map<String, String>> history = conversationHistory.get(sessionId);
         return history != null ? history.size() : 0;
     }
+
 }
