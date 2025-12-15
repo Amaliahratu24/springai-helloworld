@@ -139,7 +139,7 @@ spring.ai.groq.chat.options.temperature=0.7
 
 **1. Clone/Extract project**
 ```bash
-cd hr-cv-analyzer
+cd springai-CVanalyzer
 ```
 
 **2. Set API Key**
